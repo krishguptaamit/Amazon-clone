@@ -85,12 +85,15 @@ body {
 
 .search-select {
     background-color: #f3f3f3;
-    width: 50px;
-    min-width: 50px;
+    width: 60px;
+    min-width: 60px;
+    height: 100%;
     text-align: center;
+    text-align-last: center;
     border: none;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    padding: 0;
 }
 
 .search-input {
@@ -510,6 +513,14 @@ footer {
 
     .search-input {
         font-size: 14px;
+    }
+
+    .search-select{
+        width:70px;
+        min-width: 70px;
+        text-align: center;
+        text-align-last: center;
+        padding: 0;
     }
 
     /* PANEL */
