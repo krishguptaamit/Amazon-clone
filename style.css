@@ -172,6 +172,7 @@ span {
     flex: 1;
     overflow-x: auto;
     scrollbar-width: none;
+    justify-content: space-evenly;
 }
 
 .panel-ops::-webkit-scrollbar {
@@ -520,6 +521,7 @@ footer {
 
     .panel-all {
         font-size: 14px;
+        
     }
 
     .panel-ops {
